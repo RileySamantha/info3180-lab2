@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+	<div id="heading">
+		<h1>Profile</h1>
+	</div>
+	<div id="image">
+		<!--<img src="{{url_for('static', filename= 'profile-picture.jpg')}}" width="100" height="100">-->
+		<img src="/static/profile-picture.jpg" width="100" height="100">
+	</div>
+	<hr >
+<body>
+<div id=pi>
+OBI-WAN KENOBI <br>
+<hr>
+{{ tday }}
+<hr>
+Username: Obi-1<br>
+ID:620099999<br>
+Age:57<br>
+Gender:Male<br>
+<hr>
+I am a legendary gedi master
+</div>
+</body>
+
+{% endblock %}
